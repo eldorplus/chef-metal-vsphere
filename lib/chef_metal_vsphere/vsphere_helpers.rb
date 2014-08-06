@@ -6,7 +6,7 @@ module ChefMetalVsphere
       conn_opts = {
         :host => connect_options['vsphere_host'],
         :port => connect_options['vsphere_port'],
-        :path => connect_options['vshere_path'],
+        :path => connect_options['vsphere_path'],
         :use_ssl => connect_options['vsphere_ssl'],
         :insecure => connect_options['vsphere_insecure'],
         :proxyHost => connect_options['proxy_host'],
